@@ -8,6 +8,7 @@ async function main() {
   // TODO: how do we prove to the server we're on the nice list? 
 
   const { data: gift } = await axios.post(`${serverUrl}/gift`, {
+    name: 'Anna Stehr'
     // TODO: add request body parameters here!
   });
 
